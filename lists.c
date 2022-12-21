@@ -87,7 +87,7 @@ size_t print_list_str(const list_t *h)
 	while (h)
 	{
 		_puts(h->str ? h->str : "(nil)");
-		_puts("\n")
+		_puts("\n");
 
 		h = h->next;
 		i++;
@@ -124,7 +124,7 @@ int delete_node_at_index(list_t **head, unsigned int index)
 	{
 		if (i == index)
 		{
-			prev_node->next = node->next
+			prev_node->next = node->next;
 			free(node->str);
 			free(node);
 			return (1);
