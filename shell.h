@@ -28,7 +28,7 @@
 #define CONVERT_UNSIGNED	2
 
 /* 1 if using system getline() */
-#define USE_GETLINE
+#define USE_GETLINE 0
 #define USE_STRTOK 0
 
 #define HIST_FILE	".simple_shell_history"
